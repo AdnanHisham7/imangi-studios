@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
+.brand-icon img{
+    height: 8vh;
+}
+.download-key img{
+    height: 8vh;
+    width: 10rem;
+}
+.border-none{
+    border: none;
+}
+.alt-img {
+    display: none;
+  }
+.nav-link{
+    font-weight: 700;
+}
+
+.navbar-toggler.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+.aboutthem{
+    font-weight: 700;
+}
+.last-image{
+    /* height: 450px; */
+
+}
+.dragon{
+    margin: -5em 0em 0em 0em;
+}
+.download-image img{
+    height: 4rem;
+    width: 11rem;
+}
+
+.dragon-space{
+    height: 140px;
+}
+
+
+
+@media (max-width: 800px) {
+    .default-img {
+      display: none;
+    }
+    .alt-img {
+      display: block;
+    }
+  }
+
+@media (max-width: 768px) {
+   header .row .col-md-6{
+    justify-content: start!important;
+   }
+}
